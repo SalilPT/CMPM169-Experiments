@@ -62,7 +62,7 @@ class LangtonsAnt {
 function setup() {
     // place our canvas, making it fit our container
     canvasContainer = $("#canvas-container");
-    let canvas = createCanvas(canvasContainer.width(), canvasContainer.height());
+    let canvas = createCanvas(width * cellSize, height * cellSize);
     canvas.parent("canvas-container");
     // resize canvas is the page is resized
     $(window).resize(function() {
@@ -70,7 +70,6 @@ function setup() {
         resizeCanvas(canvasContainer.width(), canvasContainer.height());
     });
 
-    createCanvas(width * cellSize, height * cellSize);
     background(0);
     grid = create2DArray(width, height);
     nextGrid = create2DArray(width, height);

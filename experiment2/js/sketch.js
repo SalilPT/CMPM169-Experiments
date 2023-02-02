@@ -38,7 +38,7 @@ class TrackingRect {
 function setup() {
     // place our canvas, making it fit our container
     canvasContainer = $("#canvas-container");
-    let canvas = createCanvas(canvasContainer.width(), canvasContainer.height());
+    let canvas = createCanvas(WIDTH, HEIGHT);
     canvas.parent("canvas-container");
     // resize canvas is the page is resized
     $(window).resize(function() {
@@ -46,7 +46,6 @@ function setup() {
         resizeCanvas(canvasContainer.width(), canvasContainer.height());
     });
 
-    canvas = createCanvas(WIDTH, HEIGHT);
     background(255);
     strokeWeight(STROKE_WEIGHT);
     rectMode(CENTER);
