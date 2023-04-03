@@ -1,6 +1,8 @@
-// sketch.js - purpose and description here
-// Author: Your Name
-// Date:
+// Title: "Lively WebGL Explosion Maker"
+// Description: "A small program that makes 3D explosions when the user clicks."
+// Date: February 14, 2023
+// Code adapted from the following:
+// - https://openprocessing.org/sketch/890654
 
 // Globals
 var particles = [];

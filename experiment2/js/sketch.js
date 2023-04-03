@@ -1,6 +1,6 @@
-// sketch.js - purpose and description here
-// Author: Your Name
-// Date:
+// Title: "There You Are"
+// Description: ""
+// Date: January 24, 2023
 
 const WIDTH = 1280;
 const HEIGHT = 800;

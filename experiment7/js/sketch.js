@@ -1,7 +1,8 @@
 // Title: "MyAnimeList Data Bubble Chart Thing"
 // Description: "A bubble chart that visualizes the scores of the 250 most popular anime on MyAnimeList."
-// Author: Your Name
 // Date: March 2, 2023
+// Code adapted from the following:
+// - https://observablehq.com/@d3/bubble-chart
 // This piece uses the dataset from here: https://www.kaggle.com/datasets/brunobacelardc/myanimelist-top-1000-anime .
 // It does not use up-to-date rankings.
 

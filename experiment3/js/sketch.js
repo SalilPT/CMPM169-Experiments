@@ -1,6 +1,8 @@
-// sketch.js - purpose and description here
-// Author: Your Name
-// Date:
+// Title: "Game of Ant"
+// Description: ""
+// Date: January 31, 2023
+// Code adapted from the following:
+// - https://editor.p5js.org/wmodes/sketches/ixuIQcgLi
 
 const width = 100;
 const height = 100;

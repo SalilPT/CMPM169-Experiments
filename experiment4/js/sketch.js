@@ -1,6 +1,8 @@
-// sketch.js - purpose and description here
-// Author: Your Name
-// Date:
+// Title: "Tiny Chord Toy"
+// Description: "A small toy that can play some pleasant chords when the mouse is pressed."
+// Date: February 7, 2023
+// Code adapted from the following:
+// - https://openprocessing.org/sketch/1795135
 
 let osc, playing = false, freq = 0, amp = 0;
 const maxAmp = 0.5, minFreq = 200, maxFreq = 440;

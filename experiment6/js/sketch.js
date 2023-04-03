@@ -1,6 +1,6 @@
-// sketch.js - purpose and description here
-// Author: Your Name
-// Date:
+// Title: "Floating Randomly Generated Quotes"
+// Description: "A small program that makes randomly generated quotes when the user clicks that float around the canvas."
+// Date: February 21, 2023
 // Code adapted from the following:
 // - https://editor.p5js.org/wmodes/sketches/Afy06Yhym
 // - https://openprocessing.org/sketch/1359419
